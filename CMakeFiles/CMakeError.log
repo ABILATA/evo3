@@ -1,0 +1,15 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /Users/JPPC/Desktop/JPPC/2018/favores/cryptonote-master/CryptonoteEvo3-CLI/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_899ec/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_899ec.dir/build.make CMakeFiles/cmTC_899ec.dir/build
+Building C object CMakeFiles/cmTC_899ec.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes    -o CMakeFiles/cmTC_899ec.dir/CheckIncludeFile.c.o   -c /Users/JPPC/Desktop/JPPC/2018/favores/cryptonote-master/CryptonoteEvo3-CLI/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Werror=maybe-uninitialized'; did you mean '-Werror=uninitialized'? [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Werror=clobbered'; did you mean '-Werror=consumed'? [-Werror,-Wunknown-warning-option]
+error: unknown warning option '-Werror=unused-but-set-variable'; did you mean '-Werror=unused-const-variable'? [-Werror,-Wunknown-warning-option]
+make[2]: *** [CMakeFiles/cmTC_899ec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: *** [cmTC_899ec/fast] Error 2
+
+
